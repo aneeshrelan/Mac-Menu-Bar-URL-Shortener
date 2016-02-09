@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2788E31C6A6CE4004614CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2788E21C6A6CE4004614CB /* AppDelegate.swift */; };
+		9C2788E51C6A6CE4004614CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2788E41C6A6CE4004614CB /* Assets.xcassets */; };
+		9C2788E81C6A6CE5004614CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2788E61C6A6CE5004614CB /* MainMenu.xib */; };
+		9C2788F31C6A6CE5004614CB /* Goo_gl_ShortenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2788F21C6A6CE5004614CB /* Goo_gl_ShortenerTests.swift */; };
+		9C2788FE1C6A6CE5004614CB /* Goo_gl_ShortenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2788FD1C6A6CE5004614CB /* Goo_gl_ShortenerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C2788EF1C6A6CE5004614CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2788D71C6A6CE4004614CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2788DE1C6A6CE4004614CB;
+			remoteInfo = "Goo.gl Shortener";
+		};
+		9C2788FA1C6A6CE5004614CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2788D71C6A6CE4004614CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2788DE1C6A6CE4004614CB;
+			remoteInfo = "Goo.gl Shortener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C2788DF1C6A6CE4004614CB /* Goo.gl Shortener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goo.gl Shortener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2788E21C6A6CE4004614CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C2788E41C6A6CE4004614CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C2788E71C6A6CE5004614CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9C2788E91C6A6CE5004614CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2788EE1C6A6CE5004614CB /* Goo.gl ShortenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goo.gl ShortenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2788F21C6A6CE5004614CB /* Goo_gl_ShortenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goo_gl_ShortenerTests.swift; sourceTree = "<group>"; };
+		9C2788F41C6A6CE5004614CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2788F91C6A6CE5004614CB /* Goo.gl ShortenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goo.gl ShortenerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2788FD1C6A6CE5004614CB /* Goo_gl_ShortenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goo_gl_ShortenerUITests.swift; sourceTree = "<group>"; };
+		9C2788FF1C6A6CE5004614CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C2788DC1C6A6CE4004614CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788EB1C6A6CE5004614CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788F61C6A6CE5004614CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C2788D61C6A6CE4004614CB = {
+			isa = PBXGroup;
+			children = (
+				9C2788E11C6A6CE4004614CB /* Goo.gl Shortener */,
+				9C2788F11C6A6CE5004614CB /* Goo.gl ShortenerTests */,
+				9C2788FC1C6A6CE5004614CB /* Goo.gl ShortenerUITests */,
+				9C2788E01C6A6CE4004614CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2788E01C6A6CE4004614CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C2788DF1C6A6CE4004614CB /* Goo.gl Shortener.app */,
+				9C2788EE1C6A6CE5004614CB /* Goo.gl ShortenerTests.xctest */,
+				9C2788F91C6A6CE5004614CB /* Goo.gl ShortenerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C2788E11C6A6CE4004614CB /* Goo.gl Shortener */ = {
+			isa = PBXGroup;
+			children = (
+				9C2788E21C6A6CE4004614CB /* AppDelegate.swift */,
+				9C2788E41C6A6CE4004614CB /* Assets.xcassets */,
+				9C2788E61C6A6CE5004614CB /* MainMenu.xib */,
+				9C2788E91C6A6CE5004614CB /* Info.plist */,
+			);
+			path = "Goo.gl Shortener";
+			sourceTree = "<group>";
+		};
+		9C2788F11C6A6CE5004614CB /* Goo.gl ShortenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2788F21C6A6CE5004614CB /* Goo_gl_ShortenerTests.swift */,
+				9C2788F41C6A6CE5004614CB /* Info.plist */,
+			);
+			path = "Goo.gl ShortenerTests";
+			sourceTree = "<group>";
+		};
+		9C2788FC1C6A6CE5004614CB /* Goo.gl ShortenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2788FD1C6A6CE5004614CB /* Goo_gl_ShortenerUITests.swift */,
+				9C2788FF1C6A6CE5004614CB /* Info.plist */,
+			);
+			path = "Goo.gl ShortenerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C2788DE1C6A6CE4004614CB /* Goo.gl Shortener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2789021C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl Shortener" */;
+			buildPhases = (
+				9C2788DB1C6A6CE4004614CB /* Sources */,
+				9C2788DC1C6A6CE4004614CB /* Frameworks */,
+				9C2788DD1C6A6CE4004614CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goo.gl Shortener";
+			productName = "Goo.gl Shortener";
+			productReference = 9C2788DF1C6A6CE4004614CB /* Goo.gl Shortener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C2788ED1C6A6CE5004614CB /* Goo.gl ShortenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2789051C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl ShortenerTests" */;
+			buildPhases = (
+				9C2788EA1C6A6CE5004614CB /* Sources */,
+				9C2788EB1C6A6CE5004614CB /* Frameworks */,
+				9C2788EC1C6A6CE5004614CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2788F01C6A6CE5004614CB /* PBXTargetDependency */,
+			);
+			name = "Goo.gl ShortenerTests";
+			productName = "Goo.gl ShortenerTests";
+			productReference = 9C2788EE1C6A6CE5004614CB /* Goo.gl ShortenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C2788F81C6A6CE5004614CB /* Goo.gl ShortenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2789081C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl ShortenerUITests" */;
+			buildPhases = (
+				9C2788F51C6A6CE5004614CB /* Sources */,
+				9C2788F61C6A6CE5004614CB /* Frameworks */,
+				9C2788F71C6A6CE5004614CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2788FB1C6A6CE5004614CB /* PBXTargetDependency */,
+			);
+			name = "Goo.gl ShortenerUITests";
+			productName = "Goo.gl ShortenerUITests";
+			productReference = 9C2788F91C6A6CE5004614CB /* Goo.gl ShortenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C2788D71C6A6CE4004614CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Aneesh;
+				TargetAttributes = {
+					9C2788DE1C6A6CE4004614CB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9C2788ED1C6A6CE5004614CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9C2788DE1C6A6CE4004614CB;
+					};
+					9C2788F81C6A6CE5004614CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9C2788DE1C6A6CE4004614CB;
+					};
+				};
+			};
+			buildConfigurationList = 9C2788DA1C6A6CE4004614CB /* Build configuration list for PBXProject "Goo.gl Shortener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C2788D61C6A6CE4004614CB;
+			productRefGroup = 9C2788E01C6A6CE4004614CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2788DE1C6A6CE4004614CB /* Goo.gl Shortener */,
+				9C2788ED1C6A6CE5004614CB /* Goo.gl ShortenerTests */,
+				9C2788F81C6A6CE5004614CB /* Goo.gl ShortenerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C2788DD1C6A6CE4004614CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2788E51C6A6CE4004614CB /* Assets.xcassets in Resources */,
+				9C2788E81C6A6CE5004614CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788EC1C6A6CE5004614CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788F71C6A6CE5004614CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2788DB1C6A6CE4004614CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2788E31C6A6CE4004614CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788EA1C6A6CE5004614CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2788F31C6A6CE5004614CB /* Goo_gl_ShortenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2788F51C6A6CE5004614CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2788FE1C6A6CE5004614CB /* Goo_gl_ShortenerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C2788F01C6A6CE5004614CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C2788DE1C6A6CE4004614CB /* Goo.gl Shortener */;
+			targetProxy = 9C2788EF1C6A6CE5004614CB /* PBXContainerItemProxy */;
+		};
+		9C2788FB1C6A6CE5004614CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C2788DE1C6A6CE4004614CB /* Goo.gl Shortener */;
+			targetProxy = 9C2788FA1C6A6CE5004614CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C2788E61C6A6CE5004614CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C2788E71C6A6CE5004614CB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C2789001C6A6CE5004614CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C2789011C6A6CE5004614CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C2789031C6A6CE5004614CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl Shortener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-Shortener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C2789041C6A6CE5004614CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl Shortener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-Shortener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C2789061C6A6CE5004614CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl ShortenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-ShortenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goo.gl Shortener.app/Contents/MacOS/Goo.gl Shortener";
+			};
+			name = Debug;
+		};
+		9C2789071C6A6CE5004614CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl ShortenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-ShortenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goo.gl Shortener.app/Contents/MacOS/Goo.gl Shortener";
+			};
+			name = Release;
+		};
+		9C2789091C6A6CE5004614CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl ShortenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-ShortenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Goo.gl Shortener";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9C27890A1C6A6CE5004614CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Goo.gl ShortenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aneesh.Goo-gl-ShortenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Goo.gl Shortener";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2788DA1C6A6CE4004614CB /* Build configuration list for PBXProject "Goo.gl Shortener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2789001C6A6CE5004614CB /* Debug */,
+				9C2789011C6A6CE5004614CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2789021C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl Shortener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2789031C6A6CE5004614CB /* Debug */,
+				9C2789041C6A6CE5004614CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C2789051C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl ShortenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2789061C6A6CE5004614CB /* Debug */,
+				9C2789071C6A6CE5004614CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C2789081C6A6CE5004614CB /* Build configuration list for PBXNativeTarget "Goo.gl ShortenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2789091C6A6CE5004614CB /* Debug */,
+				9C27890A1C6A6CE5004614CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C2788D71C6A6CE4004614CB /* Project object */;
+}
