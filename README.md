@@ -18,3 +18,8 @@ Mac Menu Bar URL Shortener is a small application that sits in the menu bar to h
 2. The Link will be shortened and copied directly to Clipboard
 
 3. Paste the link wherever you need to use
+
+#Next
+
+1. Add a HISTORY support to show all past links shortened
+2. Add more URL shorteners like bit.ly which can be selected in configuration
