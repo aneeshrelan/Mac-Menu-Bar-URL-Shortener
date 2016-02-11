@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ShortenerViewController" customModule="Goo_gl_Shortener" customModuleProvider="target">
+            <connections>
+                <outlet property="footer" destination="esi-va-mdB" id="ulW-Nl-zJG"/>
+                <outlet property="image" destination="JWQ-O7-eLB" id="HUj-Ta-rzP"/>
+                <outlet property="message" destination="FFd-Bt-xJX" id="oWM-rn-2y4"/>
+                <outlet property="progress" destination="L06-0l-eaL" id="Cvy-Lk-ccV"/>
+                <outlet property="url" destination="FFd-Bt-xJX" id="fyt-pn-fq1"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView wantsLayer="YES" appearanceType="aqua" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="295" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="esi-va-mdB">
+                    <rect key="frame" x="0.0" y="0.0" width="295" height="43"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8D7-lH-nlv">
+                            <rect key="frame" x="121" y="11" width="52" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="DjY-Ra-tv4"/>
+                            </constraints>
+                            <buttonCell key="cell" type="recessed" title="Quit" bezelStyle="recessed" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fFm-ML-pG5">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                <font key="font" metaFont="systemBold" size="12"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="quitClick:" target="-2" id="HUX-tm-DNm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="8D7-lH-nlv" firstAttribute="top" secondItem="esi-va-mdB" secondAttribute="top" constant="13" id="5Vi-fr-MNO"/>
+                        <constraint firstItem="8D7-lH-nlv" firstAttribute="centerY" secondItem="esi-va-mdB" secondAttribute="centerY" id="asu-5v-cjl"/>
+                        <constraint firstItem="8D7-lH-nlv" firstAttribute="centerX" secondItem="esi-va-mdB" secondAttribute="centerX" id="bwy-X9-loB"/>
+                    </constraints>
+                </customView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YZZ-0E-azP">
+                    <rect key="frame" x="20" y="83" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="kMU-6r-NQg"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="HUq-7h-pck"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FFd-Bt-xJX">
+                    <rect key="frame" x="67" y="83" width="260" height="36"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Converted and Copied" id="K4T-6a-wJW">
+                        <font key="font" size="18" name="Verdana-Bold"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JWQ-O7-eLB">
+                    <rect key="frame" x="13" y="77" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="lDd-aJ-zh6"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="wrong" id="qoU-a2-ldB"/>
+                </imageView>
+                <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="L06-0l-eaL">
+                    <rect key="frame" x="131" y="85" width="32" height="32"/>
+                </progressIndicator>
+            </subviews>
+            <constraints>
+                <constraint firstItem="esi-va-mdB" firstAttribute="top" secondItem="JWQ-O7-eLB" secondAttribute="bottom" constant="34" id="2kT-dP-XQ2"/>
+                <constraint firstItem="FFd-Bt-xJX" firstAttribute="centerY" secondItem="JWQ-O7-eLB" secondAttribute="centerY" id="3SO-um-HqU"/>
+                <constraint firstItem="JWQ-O7-eLB" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="13" id="9Xk-kV-kc4"/>
+                <constraint firstAttribute="trailing" secondItem="FFd-Bt-xJX" secondAttribute="trailing" constant="-30" id="CuQ-N5-O72"/>
+                <constraint firstAttribute="trailing" secondItem="esi-va-mdB" secondAttribute="trailing" id="D9X-uo-0ER"/>
+                <constraint firstItem="esi-va-mdB" firstAttribute="top" secondItem="YZZ-0E-azP" secondAttribute="bottom" constant="40" id="L2g-8N-mZS"/>
+                <constraint firstItem="esi-va-mdB" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="OFM-1Q-Dbc"/>
+                <constraint firstItem="FFd-Bt-xJX" firstAttribute="bottom" secondItem="YZZ-0E-azP" secondAttribute="bottom" id="VEw-0j-zxe"/>
+                <constraint firstAttribute="bottom" secondItem="esi-va-mdB" secondAttribute="bottom" id="VJd-g5-nnl"/>
+                <constraint firstItem="YZZ-0E-azP" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="44" id="bJa-qk-kWh"/>
+                <constraint firstItem="YZZ-0E-azP" firstAttribute="leading" secondItem="FFd-Bt-xJX" secondAttribute="leading" constant="-49" id="fOy-Ux-xj3"/>
+                <constraint firstItem="JWQ-O7-eLB" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="50" id="srh-7n-IQB"/>
+                <constraint firstItem="YZZ-0E-azP" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="yHw-zr-630"/>
+            </constraints>
+            <point key="canvasLocation" x="260.5" y="268.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="wrong" width="50" height="50"/>
+    </resources>
+</document>
